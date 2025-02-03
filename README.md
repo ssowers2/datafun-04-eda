@@ -1,10 +1,8 @@
 # datafun-04-eda
-Steps to creating a new Jupyter notebook project
 
-IMPORTANT: To run Jupyter within VS Code, use the Jupyter extension. Go to the Extensions pane on the left sidebar (the icon looks like four squares), searching for "Jupyter," and installing the "Jupyter" extension provided by Microsoft.
----
+## How to Install and Run the Project
 
-## Step 1: Create a new repository in Github
+### Step 1: Create a new repository in Github
 1. Log in to GitHub.
 2. Go to Profile>"Your repositories"
 3. Click the "New" button OR in the top-right corner of GitHub>click the + dropdown menu>Select New repository.
@@ -22,7 +20,7 @@ IMPORTANT: To run Jupyter within VS Code, use the Jupyter extension. Go to the E
 
 ### Step 3: Add gitignore and requirements.txt files (if starting project from scratch)
 1. Create new file in root project folder named: ".gitignore" If the name or location is not exact, it will not work.".gitignore" files are used to keep things out of GitHub like .venv and secrets
-2. Find the .gitignore file in the root of this repo and paste the below contents as a starting point. Contents will vary based on the project: 
+2. Find the .gitignore file in the root of this repo and paste the below contents as a starting point. Contents vary based on project: 
 
 # This .gitignore file lists content that does NOT need to be tracked in the project history
 
@@ -41,7 +39,7 @@ __pycache__/
 # Jupyter Notebook checkpoint files
 .ipynb_checkpoints
 
-1. Create new file in root project folder named: "requirements.txt" If the name or location is not exact, it will not work. The contents in this fle will vary. Example: https://github.com/denisecase/pro-analytics-01/blob/main/requirements.txt.
+3. Create new file in root project folder named: "requirements.txt" If the name or location is not exact, it will not work. The contents in this fle will vary. Example: https://github.com/denisecase/pro-analytics-01/blob/main/requirements.txt.
 
 ### Step 4: git add, git commit -m "Message here", and git push -u orgin main
 1. This is a good time to git-add-commit-push changes to the remote repository in GitHub
